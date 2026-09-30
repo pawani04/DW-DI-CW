@@ -1,6 +1,6 @@
-# 📊 Coursework Part C – DWBI
+# Coursework Part C – DWBI
 
-**📚 Subject:** Data Warehousing and Business Intelligence
+**Subject:** Data Warehousing and Business Intelligence
 
 ## 📝 Solution Summary
 
@@ -24,7 +24,7 @@ cw-c/
 └── 📊 olap_queries.sql
 ```
 
-## ⚙️ Main Components
+##  Main Components
 
 * 📂 **Source Data** – Original CSV datasets provided for the coursework.
 * 🔄 **ETL Notebook** – Performs data inspection, cleaning, transformation, and surrogate key generation.
@@ -32,7 +32,7 @@ cw-c/
 * 📥 **Loading Script** – Contains PostgreSQL commands for loading the prepared datasets.
 * 📊 **OLAP Script** – Contains queries for **slice, dice, roll-up, drill-down, and pivot** analysis.
 
-## 🛠️ Tools Used
+##  Tools Used
 
 🐍 **Python** · 🐼 **Pandas** · 📓 **Jupyter Notebook** · 🐘 **PostgreSQL** · 🔧 **DBeaver Community** · 📊 **Metabase Community**
 
