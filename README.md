@@ -1,46 +1,38 @@
-# Coursework Part C – DWBI
+# 📊 Coursework Part C – DWBI
 
-**Subject:** Data Warehousing and Business Intelligence
+**📚 Subject:** Data Warehousing and Business Intelligence
 
-## Solution Summary
+## 📝 Solution Summary
 
-The coursework presents a data warehouse and business intelligence solution designed for Lotus Care Outpatient Clinics. Raw operational datasets are processed and transformed into a dimensional model based on a star schema. The resulting warehouse is then used for OLAP analysis and business reporting.
+This coursework presents a **Data Warehouse and Business Intelligence solution** for **Lotus Care Outpatient Clinics**. Raw operational data is cleaned and transformed into a **Star Schema** dimensional model. The resulting warehouse is used for **OLAP analysis and business reporting**.
 
-## Repository Layout
+## 📁 Repository Layout
 
 ```text
 cw-c/
 │
-├── data/
+├── 📂 data/
 │   ├── appointments_raw.csv
 │   ├── doctors.csv
 │   ├── clinics.csv
 │   ├── patients.csv
 │   └── patient_updates.csv
 │
-├── notebook.ipynb
-├── ddl.sql
-├── load.sql
-└── olap_queries.sql
+├── 📓 notebook.ipynb
+├── 🗄️ ddl.sql
+├── 📥 load.sql
+└── 📊 olap_queries.sql
 ```
 
-### Main Components
+## ⚙️ Main Components
 
-**Source Data:**
-Contains the original CSV files supplied for the coursework.
+* 📂 **Source Data** – Original CSV datasets provided for the coursework.
+* 🔄 **ETL Notebook** – Performs data inspection, cleaning, transformation, and surrogate key generation.
+* 🗄️ **DDL Script** – Defines the data warehouse tables and dimensional structure.
+* 📥 **Loading Script** – Contains PostgreSQL commands for loading the prepared datasets.
+* 📊 **OLAP Script** – Contains queries for **slice, dice, roll-up, drill-down, and pivot** analysis.
 
-**ETL Notebook:**
-Used to inspect the data, apply cleaning and transformation steps, and create surrogate keys required by the warehouse.
+## 🛠️ Tools Used
 
-**DDL Script:**
-Defines the tables and dimensional structure of the data warehouse.
+🐍 **Python** · 🐼 **Pandas** · 📓 **Jupyter Notebook** · 🐘 **PostgreSQL** · 🔧 **DBeaver Community** · 📊 **Metabase Community**
 
-**Loading Script:**
-Provides PostgreSQL commands for importing the prepared datasets.
-
-**OLAP Script:**
-Contains queries for different analytical views, including slice, dice, roll-up, drill-down, and pivot operations.
-
-### Tools Used
-
-The implementation was completed using PostgreSQL, Python, Pandas, Jupyter Notebook, DBeaver Community, and Metabase Community.
